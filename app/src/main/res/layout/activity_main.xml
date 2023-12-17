@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/bgDefault">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bgDark"
+        app:titleTextColor="@color/textLight"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:title="@string/app_name" />
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/lista_blocos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:layout_marginTop="16dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/bloco_item"
+        android:backgroundTint="@color/bgDefault" />
+
+    <Button
+        android:id="@+id/cadastrar_bloco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:backgroundTint="@color/bgDark"
+        android:textColor="@color/textLight"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="ANOTAR"
+        android:textSize="16dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        app:cornerRadius="10dp"
+        android:gravity="center"
+        android:drawableEnd="@drawable/ic_editar"/>
+</RelativeLayout>

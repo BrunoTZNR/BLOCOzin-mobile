@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CriarBloco"
+    android:background="@color/bgDefault" >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bgDark"
+        app:titleTextColor="@color/textLight"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:title="@string/app_name" />
+
+    <TextView
+        android:id="@+id/criar_bloco_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:background="@color/bgDark"
+        android:textColor="@color/textLight"
+        android:text="Criar seu BLOCOzin"
+        android:gravity="center"
+        android:padding="8dp"/>
+
+    <LinearLayout
+        android:id="@+id/wrapper_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/criar_bloco_titulo"
+        android:orientation="vertical"
+        android:layout_marginVertical="16dp" >
+
+        <TextView
+            android:id="@+id/label_titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Titulo"
+            android:textSize="16dp"
+            android:textColor="@color/bgDark" />
+
+        <EditText
+            android:id="@+id/titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/bgDark" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/wrapper_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wrapper_titulo"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/label_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Descrição"
+            android:textSize="16dp"
+            android:textColor="@color/bgDark" />
+
+        <EditText
+            android:id="@+id/desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/cadastrar_bloco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="@color/bgDark"
+        android:textColor="@color/textLight"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="CADASTRAR ANOTAÇÃO"
+        app:cornerRadius="0dp"
+        android:layout_marginTop="48dp" />
+
+</RelativeLayout>

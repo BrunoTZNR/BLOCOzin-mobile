@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VizualizarBloco"
+    android:background="@color/bgDefault" >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bgDark"
+        app:titleTextColor="@color/textLight"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:title="@string/app_name" />
+
+    <LinearLayout
+        android:id="@+id/wrapper_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:orientation="vertical"
+        android:layout_marginVertical="16dp"
+        android:paddingHorizontal="8dp">
+
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Titulo"
+            android:textSize="32sp"
+            android:textAlignment="center"
+            android:textColor="@color/bgDark"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/wrapper_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wrapper_titulo"
+        android:orientation="vertical"
+        android:paddingHorizontal="8dp">
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Descrição bla bla"
+            android:textSize="16sp"
+            android:textColor="@color/textDark"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="48dp" >
+
+        <Button
+            android:id="@+id/deletar_bloco"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/wrapper_desc"
+            android:backgroundTint="@color/bgDark"
+            android:textColor="@color/textLight"
+            android:textSize="16dp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="DELETAR"
+            app:cornerRadius="10dp"
+            android:layout_marginRight="16dp"/>
+
+        <Button
+            android:id="@+id/editar_bloco"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/wrapper_desc"
+            android:backgroundTint="@color/bgDark"
+            android:textColor="@color/textLight"
+            android:textSize="16dp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="EDITAR"
+            app:cornerRadius="10dp" />
+    </LinearLayout>
+
+</RelativeLayout>
