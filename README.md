@@ -29,17 +29,23 @@ Este aplicativo propõe uma solução de bloco de notas onde o usuário possa an
 ## Screenshots
 
 - Tela inicial
-![Tela inicial](screenshots-app/tela-inicial.png 300x)
+<img src="screenshots-app/tela-inicial.png" alt="Tela inicial" width="300">
+
 - Tela de anotar novo bloco
-![Tela de anotar novo bloco](screenshots-app/tela-cadastro.png)
--Tela inicial com um bloco
-![Tela inicial com um bloco](screenshots-app/tela-inicial-com-cadastro-1.png)
+<img src="screenshots-app/tela-cadastro.png" alt="Tela de anotar novo bloco" width="300">
+
+- Tela inicial com um bloco
+<img src="screenshots-app/tela-inicial-com-cadastro-1.png" alt="Tela inicial com um bloco" width="300">
+
 - Modal de confirmação de deleção do bloco
-![Modal de confirmação de deleção do bloco](screenshots-app/modal-confirmacao-deletar.png)
+<img src="screenshots-app/modal-confirmacao-deletar.png" alt="Modal de confirmação de deleção do bloco" width="300">
+
 - Tela de editar uma bloco
-![Tela de editar uma bloco](screenshots-app/tela-editar.png)
+<img src="screenshots-app/tela-editar.png" alt="Tela de editar uma bloco" width="300">
+
 - Tela de vizualição de um bloco
-![Tela de vizualição de um bloco](screenshots-app/tela-editar.png)
+<img src="screenshots-app/tela-editar.png" alt="Tela de vizualição de um bloco" width="300">
+
 - Tela inicial com mais de um bloco
-![Tela inicial com mais de um bloco](screenshots-app/tela-inicial-com-cadastro-1.png)
+<img src="screenshots-app/tela-inicial-com-cadastro-1.png" alt="Tela inicial com mais de um bloco" width="300">
 
