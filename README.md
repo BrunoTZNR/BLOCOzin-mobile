@@ -47,5 +47,5 @@ Este aplicativo propõe uma solução de bloco de notas onde o usuário possa an
 <img src="screenshots-app/tela-editar.png" alt="Tela de vizualição de um bloco" width="300">
 
 - Tela inicial com mais de um bloco
-<img src="screenshots-app/tela-inicial-com-cadastro-1.png" alt="Tela inicial com mais de um bloco" width="300">
+<img src="screenshots-app/tela-inicial-com-cadastro-2.png" alt="Tela inicial com mais de um bloco" width="300">
 
