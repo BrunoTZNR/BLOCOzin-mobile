@@ -29,17 +29,17 @@ Este aplicativo propõe uma solução de bloco de notas onde o usuário possa an
 ## Screenshots
 
 - Tela inicial
-![Tela inicial](screenshots/tela-inicial.png)
+![Tela inicial](screenshots-app/tela-inicial.png)
 - Tela de anotar novo bloco
-![Tela de anotar novo bloco](screenshots/tela-cadastro.png)
+![Tela de anotar novo bloco](screenshots-app/tela-cadastro.png)
 -Tela inicial com um bloco
-![Tela inicial com um bloco](screenshots/tela-inicial-com-cadastro-1.png)
+![Tela inicial com um bloco](screenshots-app/tela-inicial-com-cadastro-1.png)
 - Modal de confirmação de deleção do bloco
-![Modal de confirmação de deleção do bloco](screenshots/modal-confirmacao-deletar.png)
+![Modal de confirmação de deleção do bloco](screenshots-app/modal-confirmacao-deletar.png)
 - Tela de editar uma bloco
-![Tela de editar uma bloco](screenshots/tela-editar.png)
+![Tela de editar uma bloco](screenshots-app/tela-editar.png)
 - Tela de vizualição de um bloco
-![Tela de vizualição de um bloco](screenshots/tela-editar.png)
+![Tela de vizualição de um bloco](screenshots-app/tela-editar.png)
 - Tela inicial com mais de um bloco
-![Tela inicial com mais de um bloco](screenshots/tela-inicial-com-cadastro-1.png)
+![Tela inicial com mais de um bloco](screenshots-app/tela-inicial-com-cadastro-1.png)
 
