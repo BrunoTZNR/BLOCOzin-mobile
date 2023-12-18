@@ -29,7 +29,7 @@ Este aplicativo propõe uma solução de bloco de notas onde o usuário possa an
 ## Screenshots
 
 - Tela inicial
-![Tela inicial](screenshots-app/tela-inicial.png)
+![Tela inicial](screenshots-app/tela-inicial.png 300x)
 - Tela de anotar novo bloco
 ![Tela de anotar novo bloco](screenshots-app/tela-cadastro.png)
 -Tela inicial com um bloco
